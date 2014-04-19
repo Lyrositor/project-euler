@@ -8,6 +8,7 @@ Problems::Problems() {
     // Register all the problems that are available.
     Register(new Problem1);
     Register(new Problem2);
+    Register(new Problem3);
 }
 
 void Problems::Register(Problem* problem)
