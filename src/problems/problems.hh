@@ -7,7 +7,8 @@
 
 #include <vector>
 
-#include "problem1.hh"
+#include "problem1.cc"
+#include "problem2.cc"
 
 class Problems {
 public:
