@@ -9,6 +9,7 @@ Problems::Problems() {
     Register(new Problem1);
     Register(new Problem2);
     Register(new Problem3);
+    Register(new Problem4);
 }
 
 void Problems::Register(Problem* problem)
