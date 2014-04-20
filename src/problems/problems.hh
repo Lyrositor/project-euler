@@ -15,6 +15,7 @@
 #include "problem6.cc"
 #include "problem7.cc"
 #include "problem8.cc"
+#include "problem9.cc"
 
 class Problems {
 public:

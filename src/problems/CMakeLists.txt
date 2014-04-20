@@ -18,6 +18,7 @@ set(PROBLEMS_SOURCES
     problem6.cc
     problem7.cc
     problem8.cc
+    problem9.cc
 )
 
 add_library(problems STATIC ${PROBLEMS_SOURCES} ${PROBLEMS_HEADERS})
