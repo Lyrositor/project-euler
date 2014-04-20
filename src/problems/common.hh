@@ -5,6 +5,7 @@
 #ifndef common_h
 #define common_h
 
+#include <algorithm>
 #include <cmath>
 
 class Math {

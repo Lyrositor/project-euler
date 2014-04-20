@@ -2,6 +2,7 @@
  * Project Euler Problems
  */
 
+#include <ctime>
 #include <iostream>
 #include <sstream>
 
@@ -29,8 +30,10 @@ int main (int argc, char** argv) {
     }
     
     // Run the problem's program.
+    time_t start = time(NULL);
     std::cout << "Running Problem #" << n << std::endl;
     std::cout << "Answer: " << problems->Run(n) << std::endl;
+    std::cout << "Running Time: " << difftime(time(NULL), start) << "s" << std::endl;
 
     return 0;
 }

@@ -19,3 +19,4 @@ Currently solved problems:
 * [Problem 8 - Largest product in a series](http://projecteuler.net/problem=8)
 * [Problem 9 - Special Pythagorean triplet](http://projecteuler.net/problem=9)
 * [Problem 10 - Summation of primes](http://projecteuler.net/problem=10)
+* [Problem 11 - Largest product in a grid](http://projecteuler.net/problem=11)
