@@ -13,3 +13,4 @@ Currently solved problems:
 * [Problem 2 - Even Fibonacci numbers](http://projecteuler.net/problem=2)
 * [Problem 3 - Largest prime factor](http://projecteuler.net/problem=3)
 * [Problem 4 - Largest palindrome product](http://projecteuler.net/problem=4)
+* [Problem 5 - Smallest multiple](http://projecteuler.net/problem=5)
