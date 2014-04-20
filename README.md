@@ -16,3 +16,4 @@ Currently solved problems:
 * [Problem 5 - Smallest multiple](http://projecteuler.net/problem=5)
 * [Problem 6 - Sum square difference](http://projecteuler.net/problem=6)
 * [Problem 7 - 10001st prime](http://projecteuler.net/problem=7)
+* [Problem 8 - Largest product in a series](http://projecteuler.net/problem=8)
