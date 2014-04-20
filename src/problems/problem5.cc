@@ -9,7 +9,7 @@ class Problem5 : public Problem {
 public:
     Problem5() : Problem(5) {}
 
-    void Run() {
+    long Run() {
         const unsigned int start = 2520;
         unsigned int number = start;
         while (true) {
@@ -23,6 +23,6 @@ public:
         }
 
         answer:
-        std::cout << "Answer: " << number << std::endl;
+        return number;
     }
 };

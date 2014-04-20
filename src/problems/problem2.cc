@@ -8,7 +8,7 @@ class Problem2 : public Problem {
 
 public:
     Problem2() : Problem(2) {}
-    void Run() {
+    long Run() {
         unsigned int un, un1, un1_old;
         un = un1 = un1_old = 1;
         unsigned int max = 4 * pow(10, 6);
@@ -22,6 +22,6 @@ public:
             un = un1_old;
         }
         
-        std::cout << "Answer: " << sum << std::endl;
+        return sum;
     }
 };

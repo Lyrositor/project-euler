@@ -35,8 +35,9 @@ Problem* Problems::GetProblem(unsigned int n) {
     return nullptr;
 }
 
-void Problems::Run(unsigned int n) {
+long Problems::Run(unsigned int n) {
     Problem* p = GetProblem(n);
     if (GetProblem(n))
-        p->Run();
+        return p->Run();
+    return 0;
 }

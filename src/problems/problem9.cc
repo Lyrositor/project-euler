@@ -9,7 +9,7 @@ class Problem9 : public Problem {
 public:
     Problem9() : Problem(9) {}
 
-    void Run() {
+    long Run() {
         unsigned int a, b, c;
         a = b = c = 1;
         while (true) {
@@ -21,6 +21,6 @@ public:
         }
 
         answer:
-        std::cout << "Answer: " << a*b*c << std::endl;
+        return a*b*c;
     }
 };

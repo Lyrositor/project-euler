@@ -9,7 +9,7 @@ class Problem6 : public Problem {
 public:
     Problem6() : Problem(6) {}
 
-    void Run() {
+    long Run() {
         unsigned int sum1 = pow(50, 2);
         unsigned int sum2 = 50;
         for (int i = 0; i < 50; i++) {
@@ -18,6 +18,6 @@ public:
         }
         sum2 = pow(sum2, 2);
 
-        std::cout << "Answer: " << sum2 - sum1 << std::endl;
+        return sum2 - sum1;
     }
 };

@@ -9,7 +9,7 @@ class Problem1 : public Problem {
 public:
     Problem1() : Problem(1) {}
     
-    void Run() {
+    long Run() {
         unsigned int sum = 0;
         unsigned int max = 1000;
 
@@ -17,7 +17,7 @@ public:
         sum += SumOfMultiples(5, max, false);
         sum -= SumOfMultiples(3 * 5, max, false);
 
-        std::cout << "Answer: " << sum << std::endl;
+        return sum;
     }
 
 private:

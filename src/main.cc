@@ -30,7 +30,7 @@ int main (int argc, char** argv) {
     
     // Run the problem's program.
     std::cout << "Running Problem #" << n << std::endl;
-    problems->Run(n);
+    std::cout << "Answer: " << problems->Run(n) << std::endl;
 
     return 0;
 }

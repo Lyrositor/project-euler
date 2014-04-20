@@ -22,7 +22,7 @@ public:
     Problems();
 
     bool IsProblemAvailable(unsigned int n);
-    void Run(unsigned int n);
+    long Run(unsigned int n);
 
 private:
     std::vector<Problem*> fProblems;

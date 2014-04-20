@@ -9,7 +9,7 @@ class Problem4 : public Problem {
 public:
     Problem4() : Problem(4) {}
 
-    void Run() {
+    long Run() {
         unsigned int palindrome = 0;
         std::string number;
         for (unsigned int i = 100; i < 1000; i++)
@@ -19,6 +19,6 @@ public:
                     palindrome = i * j;
             }
 
-        std::cout << "Answer: " << palindrome << std::endl;
+        return palindrome;
     }
 };
