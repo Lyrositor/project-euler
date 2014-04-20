@@ -15,14 +15,13 @@ public:
         while (true) {
             for (unsigned int i = 20; i >= 10; i--) {
                 if (i == 10)
-                    goto answer;
+                    return number;
                 if (number % i != 0)
                     break;
             }
             number += 20;
         }
 
-        answer:
-        return number;
+        return 0;
     }
 };

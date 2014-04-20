@@ -20,3 +20,4 @@ Currently solved problems:
 * [Problem 9 - Special Pythagorean triplet](http://projecteuler.net/problem=9)
 * [Problem 10 - Summation of primes](http://projecteuler.net/problem=10)
 * [Problem 11 - Largest product in a grid](http://projecteuler.net/problem=11)
+* [Problem 12 - Highly divisible triangular number](http://projecteuler.net/problem=12)
