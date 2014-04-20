@@ -9,6 +9,8 @@
 #include <iostream>
 #include <string>
 
+#include "common.hh"
+
 class Problem {
 public:
     unsigned int GetNumber() { return fNumber; }
