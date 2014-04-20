@@ -22,3 +22,4 @@ Currently solved problems:
 * [Problem 11 - Largest product in a grid](http://projecteuler.net/problem=11)
 * [Problem 12 - Highly divisible triangular number](http://projecteuler.net/problem=12)
 * [Problem 13 - Large sum](http://projecteuler.net/problem=13)
+* [Problem 14 - Longest Collatz sequence](http://projecteuler.net/problem=14)
