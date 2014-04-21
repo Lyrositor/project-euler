@@ -26,3 +26,4 @@ Currently solved problems:
 * [Problem 15 - Lattice paths](http://projecteuler.net/problem=15)
 * [Problem 16 - Power digit sum](http://projecteuler.net/problem=16)
 * [Problem 17 - Number letter counts](http://projecteuler.net/problem=17)
+* [Problem 18 - Maximum path sum I](http://projecteuler.net/problem=18)
