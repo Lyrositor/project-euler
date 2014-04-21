@@ -21,6 +21,7 @@ Problems::Problems() {
     Register(new Problem13);
     Register(new Problem14);
     Register(new Problem15);
+    Register(new Problem16);
 }
 
 void Problems::Register(Problem* problem)

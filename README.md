@@ -24,3 +24,4 @@ Currently solved problems:
 * [Problem 13 - Large sum](http://projecteuler.net/problem=13)
 * [Problem 14 - Longest Collatz sequence](http://projecteuler.net/problem=14)
 * [Problem 15 - Lattice paths](http://projecteuler.net/problem=15)
+* [Problem 16 - Power digit sum](http://projecteuler.net/problem=16)
