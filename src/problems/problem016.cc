@@ -9,7 +9,7 @@ class Problem16 : public Problem {
 public:
     Problem16() : Problem(16) {}
 
-    long Run() {
+    long long Run() {
         return 0;
     }
 };

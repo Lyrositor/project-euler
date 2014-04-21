@@ -33,7 +33,7 @@ public:
     Problems();
 
     bool IsProblemAvailable(unsigned int n);
-    long Run(unsigned int n);
+    long long Run(unsigned int n);
 
 private:
     std::vector<Problem*> fProblems;

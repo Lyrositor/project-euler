@@ -9,7 +9,7 @@ class Problem6 : public Problem {
 public:
     Problem6() : Problem(6) {}
 
-    long Run() {
+    long long Run() {
         unsigned int sum1 = pow(50, 2);
         unsigned int sum2 = 50;
         for (int i = 0; i < 50; i++) {

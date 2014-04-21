@@ -9,7 +9,7 @@ class Problem4 : public Problem {
 public:
     Problem4() : Problem(4) {}
 
-    long Run() {
+    long long Run() {
         unsigned int palindrome = 0;
         std::string number;
         for (unsigned int i = 100; i < 1000; i++)

@@ -4,6 +4,13 @@
 
 #include "common.hh"
 
+unsigned long long Math::Factorial(unsigned long long n) {
+    unsigned long long f = 1;
+    for (unsigned long long i = 2; i <= n; i++)
+        f *= i;
+    return f;
+}
+
 unsigned long Math::GetNextPrime(unsigned long prime) {
     if (prime == 2)
         return 3;

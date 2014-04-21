@@ -8,7 +8,8 @@ class Problem2 : public Problem {
 
 public:
     Problem2() : Problem(2) {}
-    long Run() {
+
+    long long Run() {
         unsigned int un, un1, un1_old;
         un = un1 = un1_old = 1;
         unsigned int max = 4 * pow(10, 6);

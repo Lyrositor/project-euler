@@ -20,6 +20,7 @@ Problems::Problems() {
     Register(new Problem12);
     Register(new Problem13);
     Register(new Problem14);
+    Register(new Problem15);
 }
 
 void Problems::Register(Problem* problem)
@@ -40,7 +41,7 @@ Problem* Problems::GetProblem(unsigned int n) {
     return nullptr;
 }
 
-long Problems::Run(unsigned int n) {
+long long Problems::Run(unsigned int n) {
     Problem* p = GetProblem(n);
     if (GetProblem(n))
         return p->Run();

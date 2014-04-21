@@ -9,7 +9,7 @@ class Problem1 : public Problem {
 public:
     Problem1() : Problem(1) {}
     
-    long Run() {
+    long long Run() {
         unsigned int sum = 0;
         unsigned int max = 1000;
 

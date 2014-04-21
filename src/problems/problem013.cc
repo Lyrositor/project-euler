@@ -9,7 +9,7 @@ class Problem13 : public Problem {
 public:
     Problem13() : Problem(13) {}
 
-    long Run() {
+    long long Run() {
         const std::string numbers[] = {
             "37107287533902102798797998220837590246510135740250",
             "46376937677490009712648124896970078050417018260538",

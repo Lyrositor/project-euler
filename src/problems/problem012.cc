@@ -9,7 +9,7 @@ class Problem12 : public Problem {
 public:
     Problem12() : Problem(12) {}
 
-    long Run() {
+    long long Run() {
         const unsigned int req_divisors = 500;
         unsigned int num_divisors;
         unsigned int n = 1;

@@ -9,7 +9,7 @@ class Problem5 : public Problem {
 public:
     Problem5() : Problem(5) {}
 
-    long Run() {
+    long long Run() {
         const unsigned int start = 2520;
         unsigned int number = start;
         while (true) {

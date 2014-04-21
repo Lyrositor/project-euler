@@ -9,7 +9,7 @@ class Problem9 : public Problem {
 public:
     Problem9() : Problem(9) {}
 
-    long Run() {
+    long long Run() {
         unsigned int a, b, c;
         a = b = c = 1;
         while (true) {

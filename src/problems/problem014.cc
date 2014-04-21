@@ -9,7 +9,7 @@ class Problem14 : public Problem {
 public:
     Problem14() : Problem(14) {}
 
-    long Run() {
+    long long Run() {
         unsigned int length = 0;
         unsigned int length_longest = 0;
         unsigned long start_longest = 0;

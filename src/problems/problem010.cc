@@ -9,7 +9,7 @@ class Problem10 : public Problem {
 public:
     Problem10() : Problem(10) {}
 
-    long Run() {
+    long long Run() {
         const unsigned long max = 2 * pow(10, 6);
         unsigned long prime = 2;
         unsigned long sum = 0;

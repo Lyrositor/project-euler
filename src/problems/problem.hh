@@ -14,7 +14,7 @@
 class Problem {
 public:
     unsigned int GetNumber() { return fNumber; }
-    virtual long Run() = 0;
+    virtual long long Run() = 0;
 
 protected:
     Problem(unsigned int n) : fNumber(n) {}

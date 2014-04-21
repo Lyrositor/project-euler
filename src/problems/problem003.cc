@@ -9,7 +9,7 @@ class Problem3 : public Problem {
 public:
     Problem3() : Problem(3) {}
 
-    long Run() {
+    long long Run() {
         const unsigned long number = 600851475143;
         unsigned long current = number;
         unsigned long prime = 2;
